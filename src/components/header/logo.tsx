@@ -3,7 +3,7 @@ export const Logo = () => {
     <svg
       className="header__logo | logo logo--pdl | db"
       width="65"
-      height="93"
+      height="70"
       fill="white"
       viewBox="0 0 65 93"
       aria-hidden="true"
