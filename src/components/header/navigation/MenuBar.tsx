@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { styled } from "styled-components";
+import { Navigation } from "./Navigation";
 
 export const MenuBar = () => {
   const [navIsOpen, setNavIsOpen] = useState(false);
@@ -13,6 +14,7 @@ export const MenuBar = () => {
           <span></span>
         </div>
       </MenuBarIcon>
+      {navIsOpen && <Navigation navIsOpen={navIsOpen} />}
     </MenuBarStyled>
   );
 };
@@ -21,7 +23,7 @@ const MenuBarStyled = styled.div<{ $isOpen?: boolean }>`
   position: absolute;
   top: 0;
   right: 0;
-  width: ${(props) => (props.$isOpen ? "500px" : "40px")};
+  width: ${(props) => (props.$isOpen ? "600px" : "40px")};
   height: ${(props) => (props.$isOpen ? "70px" : "40px")};
   background-color: ${(props) => (props.$isOpen ? "white" : "none")};
   border-radius: ${(props) => (props.$isOpen ? "20px" : "none")};
@@ -32,7 +34,7 @@ const MenuBarStyled = styled.div<{ $isOpen?: boolean }>`
     width: ${(props) => (props.$isOpen ? "100vw" : "40px")};
     height: ${(props) => (props.$isOpen ? "100vh" : "40px")};
     margin-top: ${(props) => (props.$isOpen ? 0 : "20px")};
-    background-color: ${(props) => (props.$isOpen ? "blue" : "none")};
+    background-color: ${(props) => (props.$isOpen ? "#1f218f" : "none")};
     transition: 0.8s, transform 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
     border-radius: 0;
     border-bottom-left-radius: 20px;
@@ -62,6 +64,7 @@ const MenuBarIcon = styled.div<{ $isOpen: boolean }>`
   top: 0;
   right: 20px;
   margin-top: 20px;
+  cursor: pointer;
   &::before {
     background: ${(props) => (props.$isOpen ? "#fff" : "#e94f26")};
     transform: rotate(45deg);
