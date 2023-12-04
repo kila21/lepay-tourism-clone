@@ -5,7 +5,7 @@ import facebook from "../../assets/svg/facebook.svg";
 
 export const HeaderLogo = () => {
   return (
-    <HeaderLogoStyled width={window.innerWidth}>
+    <HeaderLogoStyled>
       <Logo />
       {window.innerWidth > 768 && (
         <CircleLogosContainer>
@@ -25,7 +25,7 @@ export const HeaderLogo = () => {
   );
 };
 
-const HeaderLogoStyled = styled.div<{ width: number }>`
+const HeaderLogoStyled = styled.div`
   width: 100px;
   height: 100vh;
   border-right: 1px solid grey;
@@ -33,13 +33,14 @@ const HeaderLogoStyled = styled.div<{ width: number }>`
   display: flex;
   flex-direction: column;
   align-items: center;
+  z-index: 500;
   @media (max-width: 768px) {
     width: 100%;
     height: 100px;
     flex-direction: row;
     padding-left: 20px;
+    border-right: none;
   }
-  /* background-color: ${(props) => (props.width > 768 ? "red" : "blue")}; */
 `;
 
 //facebook and instagram circle logos container
