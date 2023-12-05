@@ -1,9 +1,23 @@
 import styled from "styled-components";
+import { useState, useEffect } from "react";
 import { Logo } from "./Logo";
 import instagram from "../../assets/svg/instagram.svg";
 import facebook from "../../assets/svg/facebook.svg";
 
 export const HeaderLogo = () => {
+  const [width, setWidth] = useState(0);
+
+  useEffect(() => {
+    const windowResize = () => {
+      setWidth(window.innerWidth);
+    };
+
+    window.addEventListener("resize", windowResize);
+    return () => {
+      window.removeEventListener("resize", windowResize);
+    };
+  }, [width]);
+
   return (
     <HeaderLogoStyled>
       <Logo />
