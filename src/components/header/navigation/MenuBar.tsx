@@ -20,21 +20,22 @@ export const MenuBar = () => {
 };
 
 const MenuBarStyled = styled.div<{ $isOpen?: boolean }>`
+  z-index: 1000;
   position: absolute;
   top: 0;
   right: 0;
   width: ${(props) => (props.$isOpen ? "600px" : "40px")};
   height: ${(props) => (props.$isOpen ? "70px" : "40px")};
-  background-color: ${(props) => (props.$isOpen ? "white" : "none")};
-  border-radius: ${(props) => (props.$isOpen ? "20px" : "none")};
-  margin-right: ${(props) => (props.$isOpen ? "10px" : "none")};
+  background-color: ${(props) => (props.$isOpen ? "white" : "")};
+  border-radius: ${(props) => (props.$isOpen ? "20px" : "")};
+  margin-right: ${(props) => (props.$isOpen ? "10px" : "")};
   margin-top: 20px;
   transition: 0.5s, transform 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
   @media (max-width: 768px) {
     width: ${(props) => (props.$isOpen ? "100vw" : "40px")};
     height: ${(props) => (props.$isOpen ? "100vh" : "40px")};
     margin-top: ${(props) => (props.$isOpen ? 0 : "20px")};
-    background-color: ${(props) => (props.$isOpen ? "#1f218f" : "none")};
+    background-color: ${(props) => (props.$isOpen ? "#1f218f" : "")};
     transition: 0.8s, transform 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
     border-radius: 0;
     border-bottom-left-radius: 20px;
