@@ -42,7 +42,7 @@ const HeaderContentStyled = styled.div`
     letter-spacing: 10px;
   }
   :last-child {
-    margin-left: 150px;
+    margin-left: 200px;
   }
 
   @media (max-width: 768px) {
@@ -62,14 +62,15 @@ const HeaderContentStyled = styled.div`
       margin-top: 10px;
     }
   }
-  @media (max-width: 2560px) and (min-width: 768px) {
+  @media (max-width: 2560px) and (min-width: 769px) {
     p {
       margin-top: 12%;
       font-size: 2vw;
+      margin-left: 200px;
     }
     h1 {
       font-size: 10vw;
-      margin-left: 50px;
+      margin-left: 80px;
     }
   }
 `;
