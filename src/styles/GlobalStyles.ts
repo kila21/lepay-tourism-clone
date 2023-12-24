@@ -8,6 +8,10 @@ export const GlobalStyles = createGlobalStyle`
     }
     body {
         width: 100vw;
-        height: 100vh;
+        height: 300vh;
+        overflow-x: hidden;
+    }
+    #root {
+        overflow-x: hidden;
     }
 `;
