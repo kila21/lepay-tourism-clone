@@ -1,5 +1,4 @@
 import styled from "styled-components";
-// import { useState, useEffect } from "react";
 import { HeaderLogo } from "./HeaderLogo";
 import { HeaderContent } from "./HeaderContent";
 
@@ -16,7 +15,6 @@ const HeaderStyled = styled.div`
   display: flex;
   width: 100vw;
   height: 100vh;
-  background-color: black;
   @media (max-width: 768px) {
     flex-direction: column;
   }

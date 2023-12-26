@@ -1,9 +1,14 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { styled } from "styled-components";
 import { Navigation } from "./Navigation";
 
-export const MenuBar = () => {
+export const MenuBar = ({ isOpen }) => {
   const [navIsOpen, setNavIsOpen] = useState(false);
+
+  useEffect(() => {
+    isOpen(navIsOpen);
+    console.log(navIsOpen);
+  }, [navIsOpen]);
 
   return (
     <MenuBarStyled $isOpen={navIsOpen}>
