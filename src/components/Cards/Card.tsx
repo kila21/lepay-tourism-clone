@@ -95,12 +95,11 @@ export const Card = (props: CardProps) => {
 
 const CardStyled = styled.div`
   position: absolute;
+  cursor: pointer;
   left: 100%;
   top: 0;
-  width: min(100% - 8vw * 2, 39rem);
   height: 300px;
   background-color: white;
-
   display: flex;
   align-items: center;
   justify-content: center;

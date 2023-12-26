@@ -46,6 +46,5 @@ const CardsContainerStyled = styled.div`
   flex-direction: column;
   width: 100%;
   height: 1500px;
-  background-color: red;
   justify-content: space-evenly;
 `;
