@@ -13,6 +13,7 @@ export const Challange = () => {
             surprising challenges to help you discover the Pays des Lacs in a
             unique way.
           </p>
+          <button>PLAY AND EXPLORE.</button>
         </div>
       </ChallangeContent>
     </ChallangeStyled>
@@ -40,7 +41,17 @@ const ChallangeContent = styled.div`
     color: white;
     display: flex;
     flex-direction: column;
-
+    button {
+      width: 170px;
+      height: 45px;
+      transform: translate(50%, 0);
+      margin-top: 25px;
+      border: none;
+      border-radius: 10px;
+      background-color: #e94f26;
+      color: #fff;
+      cursor: pointer;
+    }
     h3 {
       margin: 20px 30px;
       font-size: 40px;
@@ -58,16 +69,16 @@ const ChallangeContent = styled.div`
   }
   @media (max-width: 768px) and (min-width: 425px) {
     width: 100%;
-    height: 300px;
+    height: 350px;
   }
   @media (max-width: 1024px) and (min-width: 769px) {
-    height: 500px;
+    height: 600px;
     display: flex;
     justify-content: center;
     align-items: center;
     div {
       width: 60%;
-      height: 400px;
+      height: 500px;
       h3 {
         font-size: 58px;
       }
