@@ -26,7 +26,7 @@ export const MenuBar = ({ isOpen }) => {
 
 const MenuBarStyled = styled.div<{ $isOpen?: boolean }>`
   z-index: 1000;
-  position: absolute;
+  position: fixed;
   top: 0;
   right: 0;
   width: ${(props) => (props.$isOpen ? "600px" : "40px")};
