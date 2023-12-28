@@ -51,6 +51,7 @@ const ChallangeContent = styled.div`
       background-color: #e94f26;
       color: #fff;
       cursor: pointer;
+      margin-bottom: 50px;
     }
     h3 {
       margin: 20px 30px;
@@ -69,7 +70,6 @@ const ChallangeContent = styled.div`
   }
   @media (max-width: 768px) and (min-width: 425px) {
     width: 100%;
-    height: 350px;
   }
   @media (max-width: 1024px) and (min-width: 769px) {
     height: 600px;
