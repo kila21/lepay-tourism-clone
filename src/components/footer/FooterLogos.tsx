@@ -25,6 +25,7 @@ export const FooterLogos = () => {
 const FooterLogosStyled = styled.div`
   display: flex;
   align-items: center;
+  justify-content: space-evenly;
   width: 100%;
   padding-bottom: 50px;
   background-color: #fff;
@@ -35,7 +36,7 @@ const FooterSingleLogo = styled.div`
   margin-top: 30px;
   margin-left: 30px;
   display: flex;
-  justify-content: space-evenly;
+
   align-items: center;
   @media (max-width: 768px) {
     width: 40%;

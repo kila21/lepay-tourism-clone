@@ -37,6 +37,9 @@ const FooterInformationStyled = styled.div`
     width: 95%;
     margin-top: 30px;
   }
+  @media (min-width: 950px) {
+    min-height: 700px;
+  }
 `;
 
 const FooterNavStyled = styled.nav`

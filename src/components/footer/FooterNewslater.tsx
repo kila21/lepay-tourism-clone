@@ -49,6 +49,9 @@ const FooterNewslaterStyled = styled.div`
     font-size: 0.9rem;
     margin-bottom: 30px;
   }
+  @media (min-width: 950px) {
+    min-height: 700px;
+  }
 `;
 
 const InputStyled = styled.input`
