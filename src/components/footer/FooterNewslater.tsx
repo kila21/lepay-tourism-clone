@@ -22,7 +22,7 @@ export const FooterNewslater = () => {
 };
 
 const FooterNewslaterStyled = styled.div`
-  width: 50%;
+  width: 100%;
   background-color: #1f218f;
   display: flex;
   flex-direction: column;
@@ -33,7 +33,7 @@ const FooterNewslaterStyled = styled.div`
     display: flex;
     align-items: center;
     margin: 50px 20px;
-    width: 80%;
+    width: 80% !important;
 
     h3 {
       font-family: "Prospectus L Black";
@@ -48,10 +48,6 @@ const FooterNewslaterStyled = styled.div`
     line-height: 1.65;
     font-size: 0.9rem;
     margin-bottom: 30px;
-  }
-
-  @media (max-width: 950px) {
-    width: 100%;
   }
 `;
 
