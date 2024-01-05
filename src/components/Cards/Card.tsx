@@ -48,10 +48,10 @@ export const Card = (props: CardProps) => {
       translate = `translate3d(${translateX}, ${translateY}, 0) scale(0.8, 0.8)`;
     } else if (window.innerWidth > 768 && window.innerWidth <= 1440) {
       translateX = `calc(${-60}% + ${props.cardNum * 100}% - ${
-        window.scrollY * 1.5
+        window.scrollY * 1.7
       }px)`;
       translateY = `calc(${-20}% + ${props.cardNum * 90}% - ${
-        window.scrollY * 0.5
+        window.scrollY * 0.6
       }px)`;
 
       translate = `translate3d(${translateX}, ${translateY}, 0) scale(0.9, 0.9)`;
@@ -132,7 +132,7 @@ const CardStyled = styled.div`
     height: 420px;
   }
 
-  @media (max-width: 2560px) and (min-width: 1601px) {
+  @media (min-width: 1601px) {
     width: 512px;
     height: 572px;
   }
