@@ -2,6 +2,8 @@ import { useState, useEffect } from "react";
 import { styled } from "styled-components";
 import { CardProps } from "../../types/componentPropTypes/CardProp";
 
+import { useNavigate } from "react-router-dom";
+
 // max-width: 425 , card -width 314px, height: 360px
 
 export const Card = (props: CardProps) => {
@@ -20,6 +22,8 @@ export const Card = (props: CardProps) => {
   const [cardPosition, setCardPosition] = useState(() => {
     return updateInitiCardPosition();
   });
+
+  const navigate = useNavigate();
 
   const handleScroll = () => {
     // max-width  425px
@@ -83,8 +87,13 @@ export const Card = (props: CardProps) => {
     };
   }, []);
 
+  const handleRouteClick = () => {
+    const url = props.text.split(" ").join("-");
+    navigate(`/cards/${url}`, { state: { ...props } });
+  };
+
   return (
-    <CardStyled style={{ transform: cardPosition }}>
+    <CardStyled style={{ transform: cardPosition }} onClick={handleRouteClick}>
       <CardArticleStyled $bc={props.backgroundColor} $backImg={props.backImg}>
         <CardImgStyled src={props.imgUrl} alt="card img" />
         <CardTitleStyled>{props.text}</CardTitleStyled>
