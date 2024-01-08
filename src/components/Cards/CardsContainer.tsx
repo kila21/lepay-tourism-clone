@@ -47,7 +47,10 @@ const CardsContainerStyled = styled.div`
   width: 100%;
   height: 800px;
   justify-content: space-evenly;
-  @media (min-width: 426px) {
+  @media (min-width: 426px) and (max-width: 768px) {
     height: 1300px;
+  }
+  @media (min-width: 769px) {
+    height: 1000px;
   }
 `;

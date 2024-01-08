@@ -3,6 +3,8 @@ import { MenuBar } from "./components/header/navigation/MenuBar";
 import { CardsContainer } from "./components/Cards/CardsContainer";
 import { useCallback } from "react";
 import { Challange } from "./components/challange/Challange";
+import { Information } from "./components/information/Information";
+import { Footer } from "./components/footer/Footer";
 
 function App() {
   const changeOverflowY = useCallback((open: boolean) => {
@@ -17,6 +19,8 @@ function App() {
       <MenuBar isOpen={changeOverflowY} />
       <CardsContainer />
       <Challange />
+      <Information />
+      <Footer />
     </>
   );
 }

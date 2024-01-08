@@ -50,6 +50,9 @@ const StatsStyled = styled.div`
       transform: translate(100%, -80%);
     }
   }
+  @media (min-width: 768px) and (max-width: 1024px) {
+    height: 700px;
+  }
 
   @media (max-width: 1024px) {
     flex-direction: column;

@@ -7,6 +7,7 @@ export const Logo = () => {
       fill="white"
       viewBox="0 0 65 93"
       aria-hidden="true"
+      cursor="pointer"
     >
       <title>Pays des Lacs - Logo</title>
 

@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import cardImage from "../../assets/card-background.jpg";
+import { Stats } from "./stats";
 
 export const Information = () => {
   return (
@@ -13,13 +14,14 @@ export const Information = () => {
           commitment to the environment and the local economy.
         </h2>
       </InformationHeaderStyled>
+      <Stats />
     </InformationStyled>
   );
 };
 
 const InformationStyled = styled.div`
   width: 100%;
-  height: 1500px;
+
   background-color: white;
   margin-top: -300px;
   z-index: 1;
