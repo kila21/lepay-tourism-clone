@@ -1,4 +1,11 @@
+import { useNavigate } from "react-router-dom";
+
 export const Logo = () => {
+  const navigate = useNavigate();
+  const handleNavigate = () => {
+    navigate("/");
+  };
+
   return (
     <svg
       className="header__logo | logo logo--pdl | db"
@@ -8,6 +15,7 @@ export const Logo = () => {
       viewBox="0 0 65 93"
       aria-hidden="true"
       cursor="pointer"
+      onClick={handleNavigate}
     >
       <title>Pays des Lacs - Logo</title>
 
