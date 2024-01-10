@@ -89,7 +89,7 @@ export const Card = (props: CardProps) => {
 
   const handleRouteClick = () => {
     const url = props.title.split(" ").join("-");
-    navigate(`/cards/${url}`, { state: { ...props } });
+    navigate(`/cards/${url}`, { state: { cardNum: props.cardNum } });
   };
 
   return (
