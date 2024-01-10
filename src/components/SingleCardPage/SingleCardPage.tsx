@@ -4,13 +4,13 @@ import styled from "styled-components";
 import { Logo } from "../header/Logo";
 
 import cardData from "../../inspirations.json";
+import { SingleCardContent } from "./SingleCardContent";
 
 export const SingleCardPage = () => {
   const location = useLocation();
 
-  const { imgUrlJPG, title, textTitle, text } =
+  const { imgUrlJPG, title, textTitle, text, information } =
     cardData[location.state.cardNum];
-
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -29,7 +29,7 @@ export const SingleCardPage = () => {
           <div>{text}</div>
         </div>
       </SingleCardHeader>
-      <div className="info"></div>
+      <SingleCardContent information={information[0]} />
     </SignelCardPageStyled>
   );
 };
