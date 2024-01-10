@@ -5,36 +5,38 @@ import card2Img from "../../assets/cards/card-bg_02.svg";
 import card3Img from "../../assets/cards/card-bg_03.svg";
 import card4Img from "../../assets/cards/card-bg_04.svg";
 
+import cardData from "../../inspirations.json";
+
 export const CardsContainer = () => {
   return (
     <CardsContainerStyled>
       <Card
-        backgroundColor="#1f218f"
-        text="Exotic stays and accommodations"
-        imgUrl="https://www.lepaysdeslacs.be/uploads/themes/_170x170_crop_center-center_82_none/8085/2021_08_05_REED_CAMPING-6611.webp"
+        backgroundColor={cardData[0].backgroundColor}
+        title={cardData[0].title}
+        imgUrlWebp={cardData[0].imgUrlWebp}
         backImg={card1Img}
-        cardNum={0}
+        cardNum={cardData[0].cardNum}
       />
       <Card
-        backgroundColor="#52795a"
-        text="Activities for the little ones"
-        imgUrl="https://www.lepaysdeslacs.be/uploads/themes/_170x170_crop_center-center_82_none/8132/2021_10_27_REED-22-PRINT.webp"
+        backgroundColor={cardData[1].backgroundColor}
+        title={cardData[1].title}
+        imgUrlWebp={cardData[1].imgUrlWebp}
         backImg={card2Img}
-        cardNum={1}
+        cardNum={cardData[1].cardNum}
       />
       <Card
-        backgroundColor="#e94f26"
-        text="Flavours and gastronomy"
-        imgUrl="https://www.lepaysdeslacs.be/uploads/themes/_170x170_crop_center-center_82_none/8123/Escav%C3%A8che.webp"
+        backgroundColor={cardData[2].backgroundColor}
+        title={cardData[2].title}
+        imgUrlWebp={cardData[2].imgUrlWebp}
         backImg={card3Img}
-        cardNum={2}
+        cardNum={cardData[2].cardNum}
       />
       <Card
-        backgroundColor="#4cb6ce"
-        text="A bewitching heritage and history"
-        imgUrl="https://www.lepaysdeslacs.be/uploads/themes/_340x340_crop_center-center_82_none/8114/Abbaye-Notre-Dame-de-Scourmont-6.webp"
+        backgroundColor={cardData[3].backgroundColor}
+        title={cardData[3].title}
+        imgUrlWebp={cardData[3].imgUrlWebp}
         backImg={card4Img}
-        cardNum={3}
+        cardNum={cardData[3].cardNum}
       />
     </CardsContainerStyled>
   );

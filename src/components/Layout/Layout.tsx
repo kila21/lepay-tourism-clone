@@ -1,6 +1,5 @@
 import { useCallback } from "react";
 import { Footer } from "../footer/Footer";
-import { Header } from "../header/Header";
 import { MenuBar } from "../header/navigation/MenuBar";
 import { Outlet, Route, Routes } from "react-router-dom";
 import App from "../../App";
@@ -14,7 +13,6 @@ export const Layout = () => {
   }, []);
   return (
     <>
-      <Header />
       <MenuBar isOpen={changeOverflowY} />
       <Outlet />
       <Routes>

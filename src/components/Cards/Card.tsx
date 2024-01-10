@@ -88,15 +88,15 @@ export const Card = (props: CardProps) => {
   }, []);
 
   const handleRouteClick = () => {
-    const url = props.text.split(" ").join("-");
+    const url = props.title.split(" ").join("-");
     navigate(`/cards/${url}`, { state: { ...props } });
   };
 
   return (
     <CardStyled style={{ transform: cardPosition }} onClick={handleRouteClick}>
       <CardArticleStyled $bc={props.backgroundColor} $backImg={props.backImg}>
-        <CardImgStyled src={props.imgUrl} alt="card img" />
-        <CardTitleStyled>{props.text}</CardTitleStyled>
+        <CardImgStyled src={props.imgUrlWebp} alt="card img" />
+        <CardTitleStyled>{props.title}</CardTitleStyled>
       </CardArticleStyled>
     </CardStyled>
   );
