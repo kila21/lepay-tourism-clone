@@ -1,4 +1,4 @@
-import { useLocation } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
 import { useEffect } from "react";
 import styled from "styled-components";
 
@@ -12,6 +12,7 @@ import { ToursType } from "../../types/JsonTypes/ToursType";
 
 export const SingleCardPage = () => {
   const location = useLocation();
+  const navigate = useNavigate();
 
   const { imgUrlJPG, title, textTitle, text, information } =
     cardData[location.state.cardNum];
@@ -25,7 +26,9 @@ export const SingleCardPage = () => {
       <SingleCardImage src={imgUrlJPG} />
       <SingleCardHeader>
         <div className="singleCard-header-title">
-          <span>FIND INSPIRATION</span>
+          <span onClick={() => navigate("/inspirations")}>
+            FIND INSPIRATION
+          </span>
           <h2>{title}</h2>
         </div>
         <div className="singleCard-header-information">

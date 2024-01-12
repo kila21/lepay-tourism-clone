@@ -4,6 +4,7 @@ import { MenuBar } from "../header/navigation/MenuBar";
 import { Outlet, Route, Routes } from "react-router-dom";
 import App from "../../App";
 import { SingleCardPage } from "../SingleCardPage/SingleCardPage";
+import { Inspirations } from "../Inspirations/Inspirations";
 
 export const Layout = () => {
   const changeOverflowY = useCallback((open: boolean) => {
@@ -17,6 +18,7 @@ export const Layout = () => {
       <Outlet />
       <Routes>
         <Route path="/" element={<App />} />
+        <Route path="/inspirations" element={<Inspirations />} />
         <Route
           path="/inspirations/:inspirationsId"
           element={<SingleCardPage />}
