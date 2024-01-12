@@ -17,7 +17,10 @@ export const Layout = () => {
       <Outlet />
       <Routes>
         <Route path="/" element={<App />} />
-        <Route path="/cards/:cardId" element={<SingleCardPage />} />
+        <Route
+          path="/inspirations/:inspirationsId"
+          element={<SingleCardPage />}
+        />
       </Routes>
       <Footer />
     </>
