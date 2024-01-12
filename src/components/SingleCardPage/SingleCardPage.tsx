@@ -1,10 +1,14 @@
 import { useLocation } from "react-router-dom";
 import { useEffect } from "react";
 import styled from "styled-components";
+
+import { SingleCardContent } from "./SingleCardContent";
+import { SingleCardTour } from "./SignelCardTour";
 import { Logo } from "../header/Logo";
 
 import cardData from "../../inspirations.json";
-import { SingleCardContent } from "./SingleCardContent";
+import tours from "../../inspirations-tours.json";
+import { ToursType } from "../../types/JsonTypes/ToursType";
 
 export const SingleCardPage = () => {
   const location = useLocation();
@@ -30,6 +34,18 @@ export const SingleCardPage = () => {
         </div>
       </SingleCardHeader>
       <SingleCardContent information={information[0]} />
+      <ToursContainer>
+        {tours &&
+          tours.map((tour: ToursType) => {
+            return (
+              <SingleCardTour
+                name={tour.name}
+                place={tour.place}
+                img={tour.img}
+              />
+            );
+          })}
+      </ToursContainer>
     </SignelCardPageStyled>
   );
 };
@@ -159,4 +175,15 @@ const SingleCardHeader = styled.div`
       }
     }
   }
+`;
+
+const ToursContainer = styled.div`
+  background-color: #fff;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  min-height: 700px;
+  height: auto;
 `;
