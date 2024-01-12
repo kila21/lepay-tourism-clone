@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
 import { ToursType } from "../../types/JsonTypes/ToursType";
 
 export const SingleCardTour = (props: ToursType) => {
@@ -22,6 +22,27 @@ export const SingleCardTour = (props: ToursType) => {
   );
 };
 
+const fadeIn = keyframes`
+  from {
+    background-position: 0 100%;
+  }
+  to {
+    background-position: 0 0;
+    background-color: #1f218f;
+  }
+`;
+
+const fadeIntext = keyframes`
+  from {
+    transform: translateY(0);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(-100px);
+    opacity: 1;
+  }
+`;
+
 const SingleCardTourStyled = styled.div<{ $backImg: string }>`
   border-radius: 20px;
   background-image: ${(props) => `url(${props.$backImg})`};
@@ -33,6 +54,19 @@ const SingleCardTourStyled = styled.div<{ $backImg: string }>`
   align-items: center;
   padding-bottom: 50px;
   position: relative;
+
+  &:hover {
+    background: url(https://www.lepaysdeslacs.be/static/img/misc/cards/activity-card_bg.svg)
+      no-repeat 50% 80% / cover;
+
+    animation: ${fadeIn} 1.5s ease-in-out forwards;
+    h3 {
+      animation: ${fadeIntext} 1.5s ease-in-out forwards;
+    }
+    h4 {
+      display: none;
+    }
+  }
 
   &::before {
     content: "";
