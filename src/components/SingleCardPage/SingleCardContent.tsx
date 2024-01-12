@@ -1,15 +1,7 @@
 import styled from "styled-components";
+import { SingleCardContentProp } from "../../types/componentPropTypes/SingleCardContentProp";
 
-interface single {
-  information: {
-    span: string;
-    infoTitle: string;
-    infoText: string;
-    didKnow: string;
-  };
-}
-
-export const SingleCardContent = (props: single) => {
+export const SingleCardContent = (props: SingleCardContentProp) => {
   return (
     <SingleCardContentStyled>
       <div className="content-info">
@@ -98,14 +90,23 @@ const SingleCardContentStyled = styled.div`
   }
   @media (min-width: 768px) and (max-width: 1024px) {
     padding-top: 550px;
-  }
-  @media (min-width: 1025px) {
-    flex-direction: row;
     .content-info {
       width: 50%;
     }
     .content-didKnow {
-      width: 35%;
+      width: 40%;
+      justify-content: flex-end;
+      transform: translate(100%, 0);
+    }
+  }
+  @media (min-width: 1025px) {
+    flex-direction: row;
+    justify-content: space-evenly;
+    .content-info {
+      width: 30%;
+    }
+    .content-didKnow {
+      width: 30%;
       padding-right: 30px;
     }
     padding-top: 450px;
