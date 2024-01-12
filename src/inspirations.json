@@ -7,14 +7,12 @@
     "imgUrlJPG": "https://www.lepaysdeslacs.be/uploads/themes/_themeIntro/2021_08_05_REED_CAMPING-6611.jpg",
     "textTitle": "Spend the night in the Pays des Lacs. ",
     "text": "Enjoy an experience with one of our hosts. Holiday homes, guest rooms, holiday villages and even unusual accommodation options – anything is possible in the Pays des Lacs. Our partners offer a unique time and an unforgettable experience. ",
-    "information": [
-      {
-        "span": "+300",
-        "infoTitle": "accommodation options are on offer in the Pays des Lacs",
-        "infoText": "",
-        "didKnow": "For more adventurous travellers, there are 11 camping areas on the Grande traversée de la forêt de la Forêt du Pays de Chimay route."
-      }
-    ]
+    "information": {
+      "span": "+300",
+      "infoTitle": "accommodation options are on offer in the Pays des Lacs",
+      "infoText": "",
+      "didKnow": "For more adventurous travellers, there are 11 camping areas on the Grande traversée de la forêt de la Forêt du Pays de Chimay route."
+    }
   },
   {
     "cardNum": 1,
@@ -24,14 +22,12 @@
     "imgUrlJPG": "https://www.lepaysdeslacs.be/uploads/themes/_themeIntro/2021_10_27_REED-22-PRINT.jpg",
     "textTitle": "Have fun with your kids in the Pays des Lacs ",
     "text": "Are you looking for fun and enjoyable activities to do with your kids? Discover a selection of tourist attractions and sites that are perfect for your young adventurers. Explore caves, uncover hidden treasure, discover life in the past and immerse yourself in the legends of the Pays des Lacs. ",
-    "information": [
-      {
-        "span": "48",
-        "infoTitle": "HOURS",
-        "infoText": "The Eau Noir river vanishes into the Neptune caves and reappears 48 hours later in the Pont d’Avignon cave three kilometres away.",
-        "didKnow": "Cistercian monks are said to have hidden treasure in the dungeons of the town hall in Chimay."
-      }
-    ]
+    "information": {
+      "span": "48",
+      "infoTitle": "HOURS",
+      "infoText": "The Eau Noir river vanishes into the Neptune caves and reappears 48 hours later in the Pont d’Avignon cave three kilometres away.",
+      "didKnow": "Cistercian monks are said to have hidden treasure in the dungeons of the town hall in Chimay."
+    }
   },
   {
     "cardNum": 2,
@@ -41,14 +37,12 @@
     "imgUrlJPG": "https://www.lepaysdeslacs.be/uploads/themes/_1440x900_crop_center-center_82_none/Escav%C3%A8che.jpg",
     "textTitle": "Discover the delicacies of the Pays des Lacs ",
     "text": "Discover our producers and local specialities. Beers, cheeses, cured meats and unusual dishes are on the menu. There’s something for every taste. Unique culinary experiences to share with your family or friends. ",
-    "information": [
-      {
-        "span": "7",
-        "infoTitle": "BREWERIES",
-        "infoText": "7 breweries to visit in the Pays des Lacs",
-        "didKnow": "Escavèche appeared in the 15th century. This is a typical dish in the south of the Pays des Lacs and was inspired by Spanish cuisine! It is prepared with fish and vinegar and can be eaten as a meal or an aperitif to cool off during the summer."
-      }
-    ]
+    "information": {
+      "span": "7",
+      "infoTitle": "BREWERIES",
+      "infoText": "7 breweries to visit in the Pays des Lacs",
+      "didKnow": "Escavèche appeared in the 15th century. This is a typical dish in the south of the Pays des Lacs and was inspired by Spanish cuisine! It is prepared with fish and vinegar and can be eaten as a meal or an aperitif to cool off during the summer."
+    }
   },
   {
     "cardNum": 3,
@@ -58,13 +52,11 @@
     "imgUrlJPG": "https://www.lepaysdeslacs.be/uploads/themes/_2160x1350_crop_center-center_82_none/Abbaye-Notre-Dame-de-Scourmont-6.jpg",
     "textTitle": "The history of the Pays des Lacs and its artisans. ",
     "text": "Discover the past and the present of the Pays des Lacs by travelling on a steam engine, visiting the collegiate church in Lobbes or by seeing the inner-workings of the dam. Visit our craftsmen and share their unique expertise. ",
-    "information": [
-      {
-        "span": "136",
-        "infoTitle": "STEPS",
-        "infoText": "Climb to the top of the Tour Salamandre and admire the panoramic view of Beaumont.",
-        "didKnow": "The monks in Aulne Abbey used a hydraulic network measuring more than 2.9 kilometres for irrigation. It was very sophisticated for the time and unique within Europe."
-      }
-    ]
+    "information": {
+      "span": "136",
+      "infoTitle": "STEPS",
+      "infoText": "Climb to the top of the Tour Salamandre and admire the panoramic view of Beaumont.",
+      "didKnow": "The monks in Aulne Abbey used a hydraulic network measuring more than 2.9 kilometres for irrigation. It was very sophisticated for the time and unique within Europe."
+    }
   }
 ]

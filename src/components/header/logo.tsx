@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
 
-export const Logo = () => {
+export const Logo = (props: { color: string }) => {
   const navigate = useNavigate();
   const handleNavigate = () => {
     navigate("/");
@@ -11,7 +11,7 @@ export const Logo = () => {
       className="header__logo | logo logo--pdl | db"
       width="65"
       height="70"
-      fill="white"
+      fill={props.color || "white"}
       viewBox="0 0 65 93"
       aria-hidden="true"
       cursor="pointer"

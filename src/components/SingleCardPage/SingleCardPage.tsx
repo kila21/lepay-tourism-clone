@@ -22,7 +22,7 @@ export const SingleCardPage = () => {
 
   return (
     <SignelCardPageStyled>
-      <Logo />
+      <Logo color="white" />
       <SingleCardImage src={imgUrlJPG} />
       <SingleCardHeader>
         <div className="singleCard-header-title">
@@ -36,7 +36,7 @@ export const SingleCardPage = () => {
           <div>{text}</div>
         </div>
       </SingleCardHeader>
-      <SingleCardContent information={information[0]} />
+      <SingleCardContent information={information} />
       <ToursContainer>
         {tours &&
           tours.map((tour: ToursType) => {
