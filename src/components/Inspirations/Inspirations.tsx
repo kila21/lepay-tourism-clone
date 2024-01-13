@@ -143,6 +143,7 @@ const InspirationCardsContainer = styled.div`
 `;
 
 const InspirationCard = styled.div<{ $bg: string; $backImg: string }>`
+  cursor: pointer;
   width: 80%;
   height: 320px;
   background-color: ${(props) => props.$bg};
@@ -153,6 +154,7 @@ const InspirationCard = styled.div<{ $bg: string; $backImg: string }>`
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
+  color: #fff;
   img {
     width: 100px;
     height: 100px;
