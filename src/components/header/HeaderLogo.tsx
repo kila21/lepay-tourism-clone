@@ -1,8 +1,9 @@
 import styled from "styled-components";
 import { useState, useEffect } from "react";
-import { Logo } from "./Logo";
+
 import instagram from "../../assets/svg/instagram.svg";
 import facebook from "../../assets/svg/facebook.svg";
+import { Logo } from "./Logo";
 
 export const HeaderLogo = () => {
   const [width, setWidth] = useState(0);
@@ -20,7 +21,7 @@ export const HeaderLogo = () => {
 
   return (
     <HeaderLogoStyled>
-      <Logo />
+      <Logo color="white" />
       {window.innerWidth > 768 && (
         <CircleLogosContainer>
           <CircleLogo>
