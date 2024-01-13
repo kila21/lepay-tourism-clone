@@ -5,7 +5,7 @@ export const FooterNewslater = () => {
   return (
     <FooterNewslaterStyled>
       <div>
-        <Logo></Logo>
+        <Logo color="white" />
         <h3>
           Subscribe to our newsletter to receive tips about the Pays des Lacs
         </h3>
