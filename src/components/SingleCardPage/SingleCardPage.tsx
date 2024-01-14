@@ -128,6 +128,7 @@ const SingleCardHeader = styled.div`
       line-height: 2;
       margin-bottom: 50px;
       margin-top: 30px;
+      font-family: "Work Sans", sans-serif;
     }
     h4 {
       margin-top: 30px;
@@ -148,10 +149,10 @@ const SingleCardHeader = styled.div`
     .singleCard-header-information {
       width: 40%;
       h4 {
-        font-size: 2rem;
+        font-size: 1.7rem;
       }
       div {
-        font-size: 1.3rem;
+        font-size: 1.1rem;
       }
     }
   }

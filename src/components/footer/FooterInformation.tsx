@@ -54,6 +54,7 @@ const FooterNavStyled = styled.nav`
     width: 100%;
     margin-left: 30px;
     li {
+      font-family: "Work Sans", sans-serif;
       padding-top: 20px;
       border-top: 1px solid grey;
       height: 60px;

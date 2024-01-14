@@ -1,6 +1,16 @@
 import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyles = createGlobalStyle`
+    @font-face {
+        font-family: "Prospectus L Black";
+        src: url("../fonts/Prospectus-L-Black.woff2") format('woff2');
+    }
+
+    @font-face {
+        font-family: "FSP DEMO - Cervo Neue Neue";
+        src: url("../fonts/cervo-neue.woff2") format('woff2');
+    }
+
     * {
         margin: 0;
         padding: 0;

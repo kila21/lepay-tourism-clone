@@ -25,7 +25,7 @@ const HeaderContentStyled = styled.div`
     font-size: 3vw;
     margin-left: 100px;
     margin-top: 20%;
-    font-family: "Prospectus L Black";
+    font-family: "Prospectus L Black, sans-serif ";
     font-style: italic;
   }
   span {

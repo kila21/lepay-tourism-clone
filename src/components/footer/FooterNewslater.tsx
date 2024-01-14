@@ -48,6 +48,7 @@ const FooterNewslaterStyled = styled.div`
     line-height: 1.65;
     font-size: 0.9rem;
     margin-bottom: 30px;
+    font-family: "Work Sans", sans-serif;
   }
   @media (min-width: 950px) {
     min-height: 700px;

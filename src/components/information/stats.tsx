@@ -97,6 +97,7 @@ const SingleStat = styled.div`
     font-weight: 600;
   }
   p {
+    font-family: "Work Sans", sans-serif;
     line-height: 2;
     font-size: 16px;
     width: 90%;

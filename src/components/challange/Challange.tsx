@@ -50,6 +50,7 @@ const ChallangeContent = styled.div`
       border-radius: 10px;
       background-color: #e94f26;
       color: #fff;
+      font-family: "FSP DEMO - Cervo Neue Neue", sans-serif;
       cursor: pointer;
       margin-bottom: 50px;
     }
@@ -65,7 +66,7 @@ const ChallangeContent = styled.div`
       font-size: 17px;
       word-spacing: 5px;
       letter-spacing: 1px;
-      font-family: sans-serif;
+      font-family: "Work Sans", sans-serif;
     }
   }
   @media (max-width: 768px) and (min-width: 425px) {
