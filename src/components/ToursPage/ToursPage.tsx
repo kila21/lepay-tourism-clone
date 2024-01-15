@@ -11,6 +11,9 @@ export const ToursPage = () => {
         name={location.state.name}
         img={location.state.img}
         place={location.state.place}
+        routeName={location.state.page.routeName}
+        route={location.state.page.route}
+        headline={location.state.page.headline}
       />
     </ToursPageStyled>
   );

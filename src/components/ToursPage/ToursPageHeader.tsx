@@ -4,6 +4,9 @@ export const ToursPageHeader = (props: {
   name: string;
   img: string;
   place: string;
+  routeName: string;
+  route: string;
+  headline: string;
 }) => {
   return (
     <ToursPageHeaderStyled>
@@ -21,8 +24,18 @@ export const ToursPageHeader = (props: {
         {props.place}
       </h1>
       <h2>{props.name}</h2>
-      <div>ALL YEAR ROUND</div>
+      <span>ALL YEAR ROUND</span>
       <img src={props.img} alt="image of tour" />
+      <div className="get-there">
+        <div>
+          <h3>How to get there</h3>
+          <h4>{props.routeName}</h4>
+          <a target="blank" href={props.route}>
+            <span>route</span>
+          </a>
+        </div>
+      </div>
+      <h2 className="headline">{props.headline}</h2>
     </ToursPageHeaderStyled>
   );
 };
@@ -52,7 +65,7 @@ const ToursPageHeaderStyled = styled.div`
     font-size: 2.1rem;
   }
 
-  div {
+  span {
     font-family: "FSP DEMO - Cervo Neue Neue", sans-serif;
     font-weight: 500;
     margin-bottom: 30px;
@@ -63,11 +76,89 @@ const ToursPageHeaderStyled = styled.div`
     margin-left: 0;
     height: 350px;
   }
+  .get-there {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    min-height: 400px;
+    div {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      width: 80%;
+      background-color: #1f218f;
+      border-radius: 20px;
+      height: 300px;
+      transform: translate(0, -40%);
+      margin-left: 30px;
+      color: #fff;
+      font-weight: 900;
+      padding-left: 50px;
+      h3 {
+        font-size: 1.5rem;
+      }
+      h4 {
+        font-size: 2rem;
+      }
+      a {
+        position: relative;
+        color: white;
+        text-decoration: none;
+        width: 30%;
+        text-align: center;
+        cursor: pointer;
+        text-transform: uppercase;
+        span {
+          z-index: 1;
+          position: relative;
+          font-size: 1.3rem;
+          letter-spacing: 2px;
+        }
+        &::before {
+          content: "";
+          position: absolute;
+          background-color: #e94f26;
+          bottom: 0;
+          right: 0;
+          top: 0;
+          left: 0;
+          border-radius: 30px;
+        }
+      }
+    }
+  }
+
+  .headline {
+    text-align: center;
+    font-size: 1.3rem;
+    margin-right: 50px;
+  }
 
   @media (max-width: 768px) {
     margin-left: 40px;
     img {
       transform: translate(-15%, 0);
+    }
+    .get-there {
+      div {
+        margin-left: 0;
+        h3 {
+          font-size: 1.2rem;
+        }
+        h4 {
+          font-size: 1.5rem;
+          line-height: 1.5;
+        }
+        a {
+          span {
+            font-size: 1rem;
+            width: 35%;
+          }
+        }
+      }
+    }
+    .headline {
+      margin-top: -100px;
     }
   }
 
@@ -76,6 +167,10 @@ const ToursPageHeaderStyled = styled.div`
     img {
       width: 100%;
       height: 500px;
+    }
+    .headline {
+      width: 40%;
+      font-size: 1.5rem;
     }
   }
   @media (min-width: 1025px) {
@@ -90,6 +185,37 @@ const ToursPageHeaderStyled = styled.div`
       top: 0;
       width: 50%;
       height: 500px;
+    }
+    .get-there {
+      div {
+        transform: translate(60%, -10%);
+        width: 40%;
+        height: 350px;
+      }
+    }
+    .headline {
+      margin: auto;
+      font-size: 2rem;
+      width: 40%;
+      text-align: left;
+    }
+  }
+
+  @media (min-width: 1440px) {
+    min-height: 700px;
+    margin-top: 200px;
+    h1,
+    span {
+      font-size: 2rem;
+    }
+    h2 {
+      font-size: 5rem;
+      width: 40%;
+    }
+
+    img {
+      height: 700px;
+      width: 50%;
     }
   }
 `;
