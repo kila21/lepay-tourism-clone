@@ -42,9 +42,11 @@ export const SingleCardPage = () => {
           tours.map((tour: ToursType) => {
             return (
               <SingleCardTour
+                key={tour.name}
                 name={tour.name}
                 place={tour.place}
                 img={tour.img}
+                page={tour.page}
               />
             );
           })}

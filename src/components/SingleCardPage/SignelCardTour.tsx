@@ -1,9 +1,17 @@
 import styled, { keyframes } from "styled-components";
 import { ToursType } from "../../types/JsonTypes/ToursType";
+import { useNavigate } from "react-router-dom";
 
 export const SingleCardTour = (props: ToursType) => {
+  const navigate = useNavigate();
+
+  const handleNavigateTour = () => {
+    const url = props.place.split(" ").join("-");
+    navigate(`/tours/${url}`, { state: { ...props } });
+  };
+
   return (
-    <SingleCardTourStyled $backImg={props.img}>
+    <SingleCardTourStyled $backImg={props.img} onClick={handleNavigateTour}>
       <h3>{props.name}</h3>
       <h4>
         <svg

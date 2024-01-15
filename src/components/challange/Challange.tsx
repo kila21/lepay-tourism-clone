@@ -58,7 +58,7 @@ const ChallangeContent = styled.div`
       margin: 20px 30px;
       font-size: 40px;
       word-wrap: break-word;
-      font-family: "Prospectus L Black";
+      font-family: "Prospectus L Black", sans-serif;
       word-spacing: 10px;
     }
     p {
