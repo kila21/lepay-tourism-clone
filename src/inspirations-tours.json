@@ -2,41 +2,350 @@
   {
     "name": "100% eco-friendly accommodation",
     "place": "Golden Lakes Village",
-    "img": "https://www.lepaysdeslacs.be/uploads/activities/_630x885_crop_center-center_82_none/VIC02210.jpg"
+    "img": "https://www.lepaysdeslacs.be/uploads/activities/_630x885_crop_center-center_82_none/VIC02210.jpg",
+    "page": {
+      "routeName": "Route de la Plate Taille 51,  6440 Froidchapelle",
+      "route": "https://goo.gl/maps/388F64qiNJmmVd5e9",
+      "headline": "The Golden Lake estate comprises a four-star hotel and a holiday village. Comfort is key here, as is the exceptional setting. The estate is located right on the banks of the Plate Taille lake, on the Eau d’Heure Lakes site. The hotel is ‘green key’ labelled, meaning you can travel while safeguarding the nature around us.",
+      "slider": [
+        "https://www.lepaysdeslacs.be/uploads/activities/_495x370_crop_center-center_82_none/7007/VIC02428.webp",
+        "https://www.lepaysdeslacs.be/uploads/activities/_495x370_crop_center-center_82_none/7006/VIC02364.webp",
+        "https://www.lepaysdeslacs.be/uploads/activities/_495x370_crop_center-center_82_none/7005/VIC02248.webp",
+        "https://www.lepaysdeslacs.be/uploads/activities/_495x370_crop_center-center_82_none/7004/GL-Village-1.webp",
+        "https://www.lepaysdeslacs.be/uploads/activities/_495x370_crop_center-center_82_none/6988/VIC02210.webp"
+      ],
+      "content": [
+        {
+          "header": "A restaurant, spa and pool in the heart of nature",
+          "text": [
+            "The environmentally friendly aspect of this accommodation already gives you a hint of the spirit of this place. This estate is committed to respecting the environment – sorting waste, a heat pump, low-cost lighting, optimal insulation – through the international ‘green key’ label. It favours local produce and encourages pedestrian and bike transport.",
+            "Additionally, the site is perfect for everyone (family, friends or couples), depending on what they’re looking for. Do you want to spend an evening playing board games, or have a good time with friends? The easiest way to achieve this is to rent a house in the holiday village. If you’re travelling with family, but want comfort and ease, book a room in the hotel.",
+            "The proximity of the services also stands out. Several restaurants are located within walking distance. The hotel restaurant is very nice. Tri-Marrants is two kilometres away and also very popular. Others in nearby villages also warrant a visit. The Le Prieuré Saint-Géry hotel is beloved by visitors and locals.",
+            "Try the wellness and massage area in the hotel too. This beautiful moment of relaxation reinvigorates the body and mind after a lovely walk in the open air."
+          ]
+        },
+        {
+          "header": "Activities a stone’s throw from the hotel",
+          "text": [
+            "Let’s talk about outdoor activities. Several walking trails pass near the estate. All you have to do is pop on our boots and set off on a hike from your room. The same is true for bikes. You can also rent one from the estate at reception.",
+            "If you prepare water sports, Espace Fun is located beside the village and offers boards and boats for exploring the lake on the water. You can also try eco-friendly water skiing at Spin Cablepark, thanks to a cable operated by solar panels that pulls you across the lake.",
+            "Alternatively, there are lots of other activities, such as Natura Parc, the Crocodile Rouge, the tour of the dam and so on."
+          ]
+        },
+        {
+          "header": "Even for just one day",
+          "text": [
+            "For people who live locally or who are staying near the lakes, you can simply enjoy the restaurant or the wellness area without staying there. It’s a good idea for a relaxing gift for couples or friends.",
+            "If you’re planning to work, there are conference rooms for meetings or seminars. These have a view of the lake."
+          ]
+        }
+      ]
+    }
   },
   {
     "name": "Pretty holiday homes by the lakes for a family getaway",
     "place": "Landal Village",
-    "img": "https://www.lepaysdeslacs.be/uploads/activities/_activityCard/Landal-Village-8-Print.jpg"
+    "img": "https://www.lepaysdeslacs.be/uploads/activities/_activityCard/Landal-Village-8-Print.jpg",
+    "page": {
+      "routeName": "Rue du Bois du Four 7, 6440 Froidchapelle",
+      "route": "https://goo.gl/maps/jip5xzrea8v7XpUD8",
+      "headline": "Landal Village is a beautifully designed holiday village: each home is practical and well appointed, offering privacy from the other holidaymakers. The park boasts a fabulous location by the lakes, next to fields and woodland.",
+      "slider": [
+        "https://www.lepaysdeslacs.be/uploads/activities/_495x370_crop_center-center_82_none/7044/Landal-Village-14.webp",
+        "https://www.lepaysdeslacs.be/uploads/activities/_780x584_crop_center-center_82_none/7043/Landal-Village-6.webp",
+        "https://www.lepaysdeslacs.be/uploads/activities/_780x584_crop_center-center_82_none/7042/Landal-Village-4.webp",
+        "https://www.lepaysdeslacs.be/uploads/activities/_780x584_crop_center-center_82_none/7041/Landal-Village-3.webp",
+        "https://www.lepaysdeslacs.be/uploads/activities/_780x584_crop_center-center_82_none/7025/Landal-Village-8-Print.webp"
+      ],
+      "content": [
+        {
+          "header": "A holiday village near woodlands, fields and lakes",
+          "text": [
+            "Landal Village is the kind of holiday village that you won’t soon forget. When you arrive, you’ll be welcomed by an attentive staff member. They’ll choose the language of their guest: French or Dutch. You'll then be taken to your house via car. ",
+            "Only tenants can move around the park. This limits the number of cars and keeps the area safe.",
+            "The houses are well arranged and offer a degree of privacy. They are bright and beautifully decorated. Everything has its own place. The kitchen is well equipped. Be careful with the Wi-Fi, which is not always strong in certain places."
+          ]
+        },
+        {
+          "header": "Accommodation at the Eau d’Heure Lakes",
+          "text": [
+            "The houses are built in a large park on the edge of the Plate-Taille Lake. You can enjoy walking around here. There are lots of small paths between the houses. There are also a few playgrounds for kids. The beach and water are within walking distance.",
+            "There’s a small shop that sells lots of products at the reception area. You can even buy fresh bread. This is always worth remembering at breakfast time.",
+            "The staff are also very pleasant. Don't hesitate to ask questions about your rental or call if something is not working. They are quick to take action. "
+          ]
+        },
+        {
+          "header": "Natural and nautical activities, with or without kids",
+          "text": [
+            "There are lots of activities to enjoy on-site. In terms of standard fare, walks and bike rides offer a great change of scenery. You can also play mini golf, or hire scooters. Alternatively, you can enjoy watersports, like paddle boarding or kayaking, at the Espace Fun.",
+            "There’s also an adventure park, the chance to visit the dam and even escape games.",
+            "The tourist office is located a few hundred metres from the village and is at your service to offer lots of information about the region.",
+            "It's worth noting that the Aquacentre and the swimming pool next to the village are currently closed."
+          ]
+        }
+      ]
+    }
   },
   {
     "name": "Let’s sleep in the woods",
     "place": "Oignies holiday villages",
-    "img": "https://www.lepaysdeslacs.be/uploads/activities/_630x885_crop_center-center_82_none/VIC05861.jpg"
+    "img": "https://www.lepaysdeslacs.be/uploads/activities/_630x885_crop_center-center_82_none/VIC05861.jpg",
+    "page": {
+      "routeName": "Rue du village de vacances 13, 5670 Viroinval",
+      "route": "https://goo.gl/maps/dUtFNSovTFKZo3bF6",
+      "headline": "We love this holiday village in the middle of the woods, in the Viroin-Hermeton nature reserve. You can sleep in the middle of the woods and, whether you’re in a chalet or a cube, enjoy absolute calm and greenery. And that’s a good thing.",
+      "slider": [
+        "https://www.lepaysdeslacs.be/uploads/activities/_780x584_crop_center-center_82_none/7086/VV-Oignies-4.webp",
+        "https://www.lepaysdeslacs.be/uploads/activities/_780x584_crop_center-center_82_none/7085/VV-Oignies-3.webp",
+        "https://www.lepaysdeslacs.be/uploads/activities/_780x584_crop_center-center_82_none/7084/VV-Oignies-2.webp",
+        "https://www.lepaysdeslacs.be/uploads/activities/_780x584_crop_center-center_82_none/7083/VV-Oignies-1.webp",
+        "https://www.lepaysdeslacs.be/uploads/activities/_780x584_crop_center-center_82_none/7067/VIC05861.webp"
+      ],
+      "content": [
+        {
+          "header": "The comfort of a chalet and a car park in the heart of nature",
+          "text": [
+            "The setting is surprising: a site of more than 12 hectares of forest, which is typical of the region. The 50 bungalows are spread throughout the woods, with a nice amount of space between them. ",
+            "The houses can be reached by car. Once you arrive, you feel calm. A number of walks start at the foot of the chalets. Alternatively, cars and bikes are crucial for reaching the village of Oignies two kilometres away."
+          ]
+        },
+        {
+          "header": "A bit like Centre Parc or Sunpark",
+          "text": [
+            "But different. In this case, we’re talking about watching wild animals as entertainment. You’ll have the chance to see a wild boar or a deer. If you’re not so lucky, you’ll still have the chance to enjoy the animals in the small park in the heart of the holiday village. ",
+            "There is also a ping-pong table, a badminton and volleyball court and a playground in the common area."
+          ]
+        },
+        {
+          "header": "Hikes on the itinerary",
+          "text": [
+            "When it comes to marked trails, a map of the available walks can be found at reception. Amazing walks for all levels of experience are on the itinerary. ",
+            "The region is crossed by the GR125, a route that is famous among sports enthusiasts, with very different views marked by meadows and wooded expanses. Alternate routes take you to the Roche à Lomme viewpoint, or along the Ry de Rome Dam and are sure to enchant.",
+            "What’s nice about these walks is that the landscape changes with the seasons: nature offers new pleasures every time, such as the first birdsong in spring, blueberries in summer, mushrooms in autumn and, on occasion, snow in winter. In this case, take advantage of the local ski slopes."
+          ]
+        },
+        {
+          "header": "Close to a variety of activities",
+          "text": [
+            "In addition to walks, the holiday village is quite conveniently located. It also has easy access to certain museums, such as the Railway Museum or the Toine Culot museum in Treignes. ",
+            "You can also enjoy other sports activities, with kayaking on the Viroin or all-terrain scooters or mountain-boarding (a mixture of snowboarding and skateboarding) at the Wanyi Downhill Park, on a former ski slope right beside the holiday village."
+          ]
+        }
+      ]
+    }
   },
   {
     "name": "A charming guest house and a generous breakfast",
     "place": "The manor house of Château de Ragnies",
-    "img": "https://www.lepaysdeslacs.be/uploads/activities/_630x885_crop_center-center_82_none/La-Gentilhommi%C3%A8re-du-Ch%C3%A2teau-de-Ragnies-5-of-43.jpg"
+    "img": "https://www.lepaysdeslacs.be/uploads/activities/_630x885_crop_center-center_82_none/La-Gentilhommi%C3%A8re-du-Ch%C3%A2teau-de-Ragnies-5-of-43.jpg",
+    "page": {
+      "routeName": "Rue du Tambourin 6, 6532 Thuin",
+      "route": "https://goo.gl/maps/hrzsrronBftfdXiS8",
+      "headline": "More than anything, what we look for in an AirBnB or guest house is a comfortable bed in a peaceful setting. This is exactly what Madame Michelle offers with the manor house of Château de Ragnies. The place will win you over.",
+      "slider": [
+        "https://www.lepaysdeslacs.be/uploads/activities/_780x584_crop_center-center_82_none/7127/La-Gentilhommi%C3%A8re-du-Ch%C3%A2teau-de-Ragnies-28-of-43.webp",
+        "https://www.lepaysdeslacs.be/uploads/activities/_780x584_crop_center-center_82_none/7126/La-Gentilhommi%C3%A8re-du-Ch%C3%A2teau-de-Ragnies-19-of-43.webp",
+        "https://www.lepaysdeslacs.be/uploads/activities/_780x584_crop_center-center_82_none/7125/La-Gentilhommi%C3%A8re-du-Ch%C3%A2teau-de-Ragnies-10-of-43.webp",
+        "https://www.lepaysdeslacs.be/uploads/activities/_780x584_crop_center-center_82_none/7124/La-Gentilhommi%C3%A8re-du-Ch%C3%A2teau-de-Ragnies-3-of-43.webp",
+        "https://www.lepaysdeslacs.be/uploads/activities/_780x584_crop_center-center_82_none/7108/La-Gentilhommi%C3%A8re-du-Ch%C3%A2teau-de-Ragnies-5-of-43.webp"
+      ],
+      "content": [
+        {
+          "header": "Cosy rooms and a lovely welcome",
+          "text": [
+            "You enter the property via a beautiful white porch from the previous century. You reach the courtyard, where you can park your car. Cyclists can even leave their bikes in a locked room.",
+            "The manor house refers to a house in the countryside. It belongs to the Château de Ragnies. It's painted white and is long in shape. You'll already appreciate the natural setting, thanks to the park opposite the building. This park is home to rare species, such as Ginkgo Biloba or purple beech trees that are typical of the region (one of the four is 400 years old!).",
+            "You can go for a stroll in the park, have a chat or read a book."
+          ]
+        },
+        {
+          "header": "A generous serving at breakfast",
+          "text": [
+            "Madame Michelle greets you with a big smile at the reception. She makes you feel at home right away and is wonderfully kind. She leads you to your room and offers tips about restaurants or activities in the area, if you're interested.",
+            "You’ll appreciate the little touches in the rooms, like the bottle of water or herbal tea.",
+            "When you wake up, there’s always a pleasant surprise in store for you: breakfast. This comprises more than pastries; an entire buffet of breads, cheeses, yoghurt, ham, eggs and more awaits. The portions are generous and the food is delicious."
+          ]
+        },
+        {
+          "header": "Accommodation in an ideal location",
+          "text": [
+            "The guest house is located in Ragnies, a village that has been named one of the most beautiful in Wallonia. The village is home to many houses made from local stone, beautiful farmhouses, a pretty church and much more.",
+            "The accommodation is located next to the Ragnies golf course and the Biercée Distillery. You'll also appreciate how close it is to the city of Thuin, which is known for its hanging gardens and its belfry, or the ruins of Aulne Abbey.",
+            "A top tip: the restaurant ‘La Part des Anges’ is located in Ragnies and serves delectable cuisine. It's best to make a reservation to ensure you are seated."
+          ]
+        }
+      ]
+    }
   },
   {
     "name": "Sleeping in the middle of the woods is really cool",
     "place": "Bivouacs",
-    "img": "https://www.lepaysdeslacs.be/uploads/activities/_activityCard/Bivouac-Virelles_Victor-10.jpg"
+    "img": "https://www.lepaysdeslacs.be/uploads/activities/_activityCard/Bivouac-Virelles_Victor-10.jpg",
+    "page": {
+      "routeName": "Grande Traversée de la Forêt du Pays de Chimay",
+      "route": "",
+      "headline": "A bivouac area in the Pays de Chimay forest offers a space in the heart of nature to accommodate tents for one night. The Pays de Chimay forest has ten of these, along the Grande Traversée route. The best way to get away from it all for a few days in Wallonia.",
+      "slider": [
+        "https://www.lepaysdeslacs.be/uploads/activities/_780x584_crop_center-center_82_none/7161/Bivouac-Virelles_Victor-5.webp",
+        "https://www.lepaysdeslacs.be/uploads/activities/_780x584_crop_center-center_82_none/7160/Bivouac-Froidchapelle_Hilde-6.webp",
+        "https://www.lepaysdeslacs.be/uploads/activities/_780x584_crop_center-center_82_none/7159/Bivouac-Froidchapelle_Hilde-1.webp",
+        "https://www.lepaysdeslacs.be/uploads/activities/_780x584_crop_center-center_82_none/7143/Bivouac-Virelles_Victor-10.webp"
+      ],
+      "content": [
+        {
+          "header": "Bivouac in the Ardennes: Chimay, Froidchapelle, Virelles or Mazée",
+          "text": [
+            "Let’s state the obvious: a bivouac area aims to get you back in touch with nature after a hike, a bike ride or a horseback ride for one night (from 4 p.m. to 10 am). To this end, it is recommended that you go with this nature-centric philosophy in mind and respect the tranquillity, the environment and the cleanliness that go with it.",
+            "In short, the Pays de Chimay forest has ten bivouac areas spread across a 170-kilometre-long signposted trail: the Grande Traversée Trail in the Pays de Chimay Forest.",
+            "Each bivouac area is different and popular because of its unique features. Some are totally immersed in the woods, like the Froidchapelle bivouac, or the Sentier des Pins bivouac in Momignies. Others, like the Bois de Blaimont bivouac or the Boussu-en-Fagne bivouac, are more out of the way."
+          ]
+        },
+        {
+          "header": "Not really camping – more like ‘wild’ pitches",
+          "text": [
+            "Unlike wild camping (which is forbidden in Belgium, as is bivouac camping in unauthorised area), these bivouacs allow you to enjoy nature without damaging it, in areas that are intended for public use.",
+            "There are rubbish bins and a place to build a fire. Some bivouacs even have wood for barbecues. Dry toilets are also provided for overnight campers in some bivouac areas.",
+            "Apart from that, nothing is provided. You have to bring your tent, your mattress and your food."
+          ]
+        },
+        {
+          "header": "An introduction to trekking and hiking",
+          "text": [
+            "What people love about these kinds of places is that they are quite pleasant, immersed in nature and far from civilisation. Most of the bivouac areas cannot be reached by car and, as a result, are reserved for real athletes.",
+            "You can go with friends for a day of hiking or more. Some drop their car off at the end point and then set off from another point, in order to avoid having to make a round trip. ",
+            "Often, this kind of experience leaves memories of a beautiful hike followed by an evening of laughter under the stars."
+          ]
+        }
+      ]
+    }
   },
   {
     "name": "A night in a unique lodging in the heart of nature",
     "place": "Terre Insolite",
-    "img": "https://www.lepaysdeslacs.be/uploads/activities/_945x1327_crop_center-center_82_none/2021_05_04_REED_THUIN-309.jpg"
+    "img": "https://www.lepaysdeslacs.be/uploads/activities/_945x1327_crop_center-center_82_none/2021_05_04_REED_THUIN-309.jpg",
+    "page": {
+      "routeName": "Rue de la Station 11, 6470 Sivry-Rance",
+      "route": "https://g.page/domaine-de-la-carrauterie?share",
+      "headline": "Terre Insolite is an estate in the village of Sautin that offers unique guest rooms: cabins, domes, trailers, themed rooms and more. You’ll receive a royal welcome here. Take advantage of this getaway in the heart of nature to recharge your batteries. It’s a wonderful way to reconnect.",
+      "slider": [
+        "https://www.lepaysdeslacs.be/uploads/activities/_780x584_crop_center-center_82_none/7202/Terre-Insolite-logements-insolites-4-FPC.webp",
+        "https://www.lepaysdeslacs.be/uploads/activities/_780x584_crop_center-center_82_none/7201/Terre-Insolite-logements-insolites-3-FPC.webp",
+        "https://www.lepaysdeslacs.be/uploads/activities/_780x584_crop_center-center_82_none/7185/2021_05_04_REED_THUIN-309.webp",
+        "https://www.lepaysdeslacs.be/uploads/activities/_780x584_crop_center-center_82_none/7206/Terre-Insolite-couple-5-PRINT.webp"
+      ],
+      "content": [
+        {
+          "header": "A treehouse near the Ardennes",
+          "text": [
+            "Terre Insolite is located in the Carrauterie estate at the entrance to Sautin, a charming village surrounded by forests and fields. It's also easy to access: you're 90 minutes from Brussels, an hour from Namur and 50 minutes from Mons.",
+            "More than anything, this accommodation tells the story of two nature lovers – Nathalie and Marc – who want to give their guests a wonderful experience. And that's exactly what they do. Once you arrive, you are welcomed with a small cocktail.",
+            "They'll take you to your room. The different accommodation options are quite close (which is all the better for getting to cars and the pool), but each boasts a certain degree of privacy. You can enjoy the view over the estate, no matter which accommodation you choose. It’s a real breath of fresh air.",
+            "Be aware that there’s no Wi-Fi in the rooms (only in the lounge in the reception area). The owners made this choice to encourage people to disconnect."
+          ]
+        },
+        {
+          "header": "Not a hotel, but Jacuzzi, swimming pool and sauna available",
+          "text": [
+            "Yes, some of the rooms could be referred to as glamping (a portmanteau of ‘camping’ and ‘glamour’), but what stands out is the attention to detail in each room. They know how to welcome guests here.",
+            "You can enjoy a delicious breakfast made from local produce on-site. You can also enjoy a dinner thanks to the catering service. Don't forget the swimming pool either, which is open from 1 May to 1 November.",
+            "If you want, you can even book a treatment, a massage or time in a Jacuzzi."
+          ]
+        },
+        {
+          "header": "A night with your family or a partner",
+          "text": [
+            "This estate is a place to remember for couple’s getaways, family trips or time away with friends. It sets the tone for your holiday. If you are meeting up with friends or staying with kids, opt for a yurt. If you want a romantic moment for two, choose the Bali pavilion. ",
+            "Dogs are welcome; just let the owners know in advance.",
+            "The accommodation options are ideally located ten kilometres from the Eau d’Heure lakes and the Virelles pond. It's worth remembering that the RAVeL network passes within 300 metres of the site."
+          ]
+        }
+      ]
+    }
   },
   {
     "name": "Sleep in the former gate of Aulne Abbey",
     "place": "Auberge de l'Abbaye",
-    "img": "https://www.lepaysdeslacs.be/uploads/activities/_activityCard/Auberge-de-lAbbaye-5.jpg"
+    "img": "https://www.lepaysdeslacs.be/uploads/activities/_activityCard/Auberge-de-lAbbaye-5.jpg",
+    "page": {
+      "routeName": "Rue Emile Vandervelde 286, 6534 Thuin",
+      "route": "https://goo.gl/maps/cj1wNNdAUsj7mYpE6",
+      "headline": "Auberge de l’Abbaye has six modern rooms with views of the ruins of Aulne Abbey. Even better: sleep in the former gate of this abbey. This all comes with the opportunity to sample local produce! An incredible change of scenery.",
+      "slider": [
+        "https://www.lepaysdeslacs.be/uploads/activities/_390x292_crop_center-center_82_none/7245/Auberge-de-lAbbaye-6.webp",
+        "https://www.lepaysdeslacs.be/uploads/activities/_390x292_crop_center-center_82_none/7244/Auberge-de-lAbbaye-5.webp",
+        "https://www.lepaysdeslacs.be/uploads/activities/_390x292_crop_center-center_82_none/7243/Auberge-de-lAbbaye-4.webp",
+        "https://www.lepaysdeslacs.be/uploads/activities/_390x292_crop_center-center_82_none/7242/Auberge-de-lAbbaye-2.webp",
+        "https://www.lepaysdeslacs.be/uploads/activities/_390x292_crop_center-center_82_none/7241/Auberge-de-lAbbaye-1.webp"
+      ],
+      "content": [
+        {
+          "header": "At the foot of the ruins of Aulne Abbey",
+          "text": [
+            "The ruins of Aulne Abbey instantly create a sense of enchantment. High stone walls, old vaulted arches, solitary columns and, at the same time, vegetation reclaiming ground. Paved roads and old buildings (walls, farmhouses, cellars, etc.) from a bygone era surround the site of the abbey.",
+            "This is where the inn is located. In addition, the hotel is located in the former gate of Aulne Abbey. When you arrive, you discover an incredible porch that spans a small road. You fall under its spell."
+          ]
+        },
+        {
+          "header": "Renovated rooms in a charming hotel",
+          "text": [
+            "Every room has a view of the abbey. During the day, you can appreciate the verdant and historical aspects of this location. There are really lovely walks that mix fields and forest in the area. At night, everything is quiet and you can enjoy the total serenity of the countryside.",
+            "You wake up to a very hearty breakfast served in the inn."
+          ]
+        },
+        {
+          "header": "Try the restaurant and activities (mini golf, boat trips and more)",
+          "text": [
+            "Auberge de l’Abbaye also offers cheese and charcuterie boards. You can enjoy a platter with only local produce, from salads to cheeses, for a small fee.",
+            "The other dishes served at the inn are generous and very enjoyable. You can also take the chance to discover Ada, the beer from Aulne Abbey, which we enjoyed in the calm of the terrace.",
+            "Finally, this hotel is also ideal for a variety of activities. If you have already visited the ruins or hiked in the area, you can also enjoy the region with a boat tour or during a round of mini golf. ",
+            "Honestly, this is a good spot to remember if you want to have a moment of peace and a change of scenery. "
+          ]
+        }
+      ]
+    }
   },
   {
     "name": "A natural accommodation with environmental, social and cultural transition",
     "place": "Naturia EcoCamp",
-    "img": "https://www.lepaysdeslacs.be/uploads/activities/_activityCard/2021_08_05_REED_CAMPING-6611.jpg"
+    "img": "https://www.lepaysdeslacs.be/uploads/activities/_activityCard/2021_08_05_REED_CAMPING-6611.jpg",
+    "page": {
+      "routeName": "Rue de Bailièvre 1, 6460 Chimay",
+      "route": "https://g.page/EcocampRobechies?share",
+      "headline": "This estate spans six hectares and offers accommodation and camping pitches with a permaculture slant. You can sleep in a safari tent, a tiny house, a yurt, a wooden chalet and more on site, or simply bring your own tent or motorhome. But that’s not all. An entire philosophy of change is on offer here.",
+      "slider": [
+        "https://www.lepaysdeslacs.be/uploads/activities/_780x584_crop_center-center_82_none/7288/2021_08_05_REED_CAMPING-6940.webp",
+        "https://www.lepaysdeslacs.be/uploads/activities/_780x584_crop_center-center_82_none/7287/2021_08_05_REED_CAMPING-6837.webp",
+        "https://www.lepaysdeslacs.be/uploads/activities/_780x584_crop_center-center_82_none/7286/2021_08_05_REED_CAMPING-6756.webp",
+        "https://www.lepaysdeslacs.be/uploads/activities/_780x584_crop_center-center_82_none/7285/2021_08_05_REED_CAMPING-6745.webp",
+        "https://www.lepaysdeslacs.be/uploads/activities/_780x584_crop_center-center_82_none/7284/2021_08_05_REED_CAMPING-6648.webp"
+      ],
+      "content": [
+        {
+          "header": "Unique and dedicated accommodation options",
+          "text": [
+            "Several unique accommodation options (furnished safari tents, tiny houses, etc.) are available to the public. ",
+            "Unlike a hotel, a bed and breakfast or a traditional campsite, however, this location is a real cooperative endeavour. ",
+            "This project, called ‘<em>Naturia</em>’, welcomes people to encourage conversations around contemporary global issues, such as the environment, the economy, politics and so forth. ",
+            "The approximately twenty participants strive to make this site as welcoming as possible and to encourage conversations."
+          ]
+        },
+        {
+          "header": "Ongoing and upcoming transition projects",
+          "text": [
+            "When you visit the site, you find a good-natured ambience. The atmosphere is friendly and there is a lot of chatter. You can meet some residents/participants who are heavily involved in the project.",
+            "A number of activities are available here. You can fish in one of the ponds or play bowls. A bar is open and serves snacks. There are also board games.",
+            "This estate is ideally located for exploring your surroundings, with the city of Chimay and the <u>Virelles pond</u> just a few kilometres away."
+          ]
+        },
+        {
+          "header": "Events à la carte",
+          "text": [
+            "A variety of events are organised here, depending on what people want, by the owners and also those who are staying on the estate. The idea is to spend time together and to discuss the future.",
+            "This is a perfect place to take some time for yourself and reflect on our actions, either alone or in a group, in a verdant setting that allows you to replenish yourself.",
+            "The ideal solution? Coming here to discover the magic of this very special green space. "
+          ]
+        }
+      ]
+    }
   }
 ]
