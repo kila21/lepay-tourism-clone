@@ -5,6 +5,7 @@ import { Outlet, Route, Routes } from "react-router-dom";
 import App from "../../App";
 import { SingleCardPage } from "../SingleCardPage/SingleCardPage";
 import { Inspirations } from "../Inspirations/Inspirations";
+import { ToursPage } from "../ToursPage/ToursPage";
 
 export const Layout = () => {
   const changeOverflowY = useCallback((open: boolean) => {
@@ -23,6 +24,7 @@ export const Layout = () => {
           path="/inspirations/:inspirationsId"
           element={<SingleCardPage />}
         />
+        <Route path="tours/:toursId" element={<ToursPage />} />
       </Routes>
       <Footer />
     </>
