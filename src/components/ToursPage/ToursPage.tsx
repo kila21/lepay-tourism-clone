@@ -1,9 +1,11 @@
 import styled from "styled-components";
 import { ToursPageHeader } from "./ToursPageHeader";
 import { useLocation } from "react-router-dom";
+import { ToursPageSlider } from "./ToursPageSlider";
+import { ToursType } from "../../types/JsonTypes/ToursType";
 
 export const ToursPage = () => {
-  const location = useLocation();
+  const location: { state: ToursType } = useLocation();
 
   return (
     <ToursPageStyled>
@@ -15,6 +17,7 @@ export const ToursPage = () => {
         route={location.state.page.route}
         headline={location.state.page.headline}
       />
+      <ToursPageSlider images={location.state.page.slider} />
     </ToursPageStyled>
   );
 };
