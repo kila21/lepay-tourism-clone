@@ -36,7 +36,7 @@ const FooterNewslaterStyled = styled.div`
     width: 80% !important;
 
     h3 {
-      font-family: "Prospectus L Black";
+      font-family: "Prospectus L Black", sans-serif;
       font-size: 20px;
       margin-left: 30px;
       width: 70%;
