@@ -27,6 +27,7 @@ const ToursPageContentStyled = styled.div`
   justify-content: center;
   color: #1f218f;
   margin-top: 70px;
+  margin-bottom: 50px;
   h2 {
     width: 70%;
     font-weight: 900;
