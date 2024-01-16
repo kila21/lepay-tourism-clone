@@ -40,6 +40,7 @@ export const ToursPageSlider = (props: { images: string[] }) => {
 const ToursPageSliderStyled = styled.div`
   width: 100%;
   min-height: 150px;
+  margin-top: 50px;
   .slick-slide > div {
     display: flex;
   }
