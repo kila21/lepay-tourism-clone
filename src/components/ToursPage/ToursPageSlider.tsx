@@ -1,89 +1,55 @@
-import { useEffect, useState } from "react";
 import styled from "styled-components";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 export const ToursPageSlider = (props: { images: string[] }) => {
-  const [currentIndex, setCurrentIndex] = useState(0);
+  const settings = {
+    dots: false,
+    infinite: false,
+    lazyload: true,
+    speed: 300,
+    slidesToShow: 2.5,
+    slidesToScroll: 1,
+    swipswipeToSlide: true,
 
-  useEffect(() => {
-    const handleKeyDown = (event: KeyboardEvent): void => {
-      if (event.key === "ArrowRight") {
-        nextSlide();
-      }
-      if (event.key === "ArrowLeft") {
-        prevSlide();
-      }
-    };
-
-    window.addEventListener("keydown", handleKeyDown);
-    return () => {
-      window.removeEventListener("keydown", handleKeyDown);
-    };
-  }, [currentIndex]);
-
-  const nextSlide = () => {
-    setCurrentIndex((prevState) => {
-      if (prevState + 1 < props.images.length) {
-        return prevState + 1;
-      } else {
-        return prevState;
-      }
-    });
-  };
-
-  const prevSlide = () => {
-    setCurrentIndex((prevState) => {
-      if (prevState - 1 >= 0) {
-        return prevState - 1;
-      } else {
-        return prevState;
-      }
-    });
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 1.5,
+          slidesToScroll: 1,
+        },
+      },
+    ],
   };
 
   return (
     <ToursPageSliderStyled>
-      <Slider $index={currentIndex}>
+      {/* <Slider $index={currentIndex}> */}
+      <Slider {...settings}>
         {props.images.map((img) => {
           return <Image key={img + 1} src={img} />;
         })}
       </Slider>
+      {/* </Slider> */}
     </ToursPageSliderStyled>
   );
 };
 
 const ToursPageSliderStyled = styled.div`
   width: 100%;
-  overflow: hidden;
-`;
+  min-height: 150px;
+  .slick-slide > div {
+    display: flex;
+  }
 
-const Slider = styled.div<{ $index: number }>`
-  width: 100%;
-  display: flex;
-  align-items: center;
-  margin-left: 20px;
-  /* justify-content: center; */
-  transition: transform 0.5s ease-in-out;
-  @media (max-width: 400px) {
-    transform: ${(props) => `translateX(${-props.$index * 90}%)`};
-  }
-  @media (min-width: 401px) and (max-width: 768px) {
-    transform: ${(props) => `translateX(${-props.$index * 85}%)`};
-  }
-  @media (min-width: 769px) and (max-width: 1024px) {
-    transform: ${(props) => `translateX(${-props.$index * 77}%)`};
-  }
-  @media (min-width: 1025px) {
-    transform: ${(props) => `translateX(${-props.$index * 40}%)`};
-  }
-  @media (min-width: 1600px) {
-    transform: ${(props) => `translateX(${-props.$index * 20}%)`};
-  }
+  /* display: flex; */
+  /* overflow: hidden; */
 `;
 
 const Image = styled.img`
-  width: 80%;
-  margin-right: 30px;
-  @media (min-width: 1025px) {
-    width: 45%;
-  }
+  width: 80% !important;
+  height: auto;
+  margin: auto !important;
 `;
