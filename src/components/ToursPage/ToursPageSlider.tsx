@@ -26,13 +26,11 @@ export const ToursPageSlider = (props: { images: string[] }) => {
 
   return (
     <ToursPageSliderStyled>
-      {/* <Slider $index={currentIndex}> */}
       <Slider {...settings}>
         {props.images.map((img) => {
           return <Image key={img + 1} src={img} />;
         })}
       </Slider>
-      {/* </Slider> */}
     </ToursPageSliderStyled>
   );
 };

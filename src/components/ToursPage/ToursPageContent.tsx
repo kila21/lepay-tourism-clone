@@ -1,3 +1,4 @@
+import React from "react";
 import styled from "styled-components";
 
 export const ToursPageContent = (props: {
@@ -5,14 +6,14 @@ export const ToursPageContent = (props: {
 }) => {
   return (
     <ToursPageContentStyled>
-      {props.content.map((item: { header: string; text: string[] }) => {
+      {props.content.map((item: { header: string; text: string[] }, index) => {
         return (
-          <>
+          <React.Fragment key={`${item}+ ${index}`}>
             <h2>{item.header}</h2>
-            {item.text.map((t) => {
-              return <p key={t}>{t}</p>;
+            {item.text.map((t, i) => {
+              return <p key={`${t}+${i}`}>{t}</p>;
             })}
-          </>
+          </React.Fragment>
         );
       })}
     </ToursPageContentStyled>
