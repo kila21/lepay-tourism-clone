@@ -6,9 +6,14 @@ import inspirations from "../../inspirations.json";
 import { Logo } from "../header/Logo";
 import card1img from "../../assets/cards/card-bg_01.svg";
 import { InspirationType } from "../../types/JsonTypes/InspirationsType";
+import { useEffect } from "react";
 
 export const Inspirations = () => {
   const navigate = useNavigate();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   const handleNavigate = (ins: InspirationType) => {
     const url = ins.title.split(" ").join("-");

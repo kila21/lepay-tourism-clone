@@ -1,16 +1,23 @@
+import { useNavigate } from "react-router-dom";
 import styled from "styled-components";
 
-export const Navigation = (props: { navIsOpen: boolean }) => {
+export const Navigation = (props: { navIsOpen: (val: boolean) => void }) => {
+  const navigate = useNavigate();
+
+  const handleNavigation = () => {
+    props.navIsOpen(false);
+    navigate("/inspirations");
+  };
   return (
-    <NavigationStyled $isOpen={props.navIsOpen}>
-      <li>get inspired</li>
+    <NavigationStyled>
+      <li onClick={handleNavigation}>get inspired</li>
       <li>play & explore</li>
       <li>pays des lacs</li>
     </NavigationStyled>
   );
 };
 
-const NavigationStyled = styled.ul<{ $isOpen: boolean }>`
+const NavigationStyled = styled.ul`
   font-family: Cervo Neue, sans-serif;
   font-weight: 600;
   display: flex;

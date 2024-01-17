@@ -6,9 +6,12 @@ import { MenuBarPropsType } from "../../../types/componentPropTypes/MenuBarProps
 export const MenuBar = (props: MenuBarPropsType) => {
   const [navIsOpen, setNavIsOpen] = useState(false);
 
+  const setNav = (val: boolean) => {
+    setNavIsOpen(val);
+  };
+
   useEffect(() => {
     props.isOpen(navIsOpen);
-    console.log(props.isOpen(navIsOpen));
   }, [navIsOpen]);
 
   return (
@@ -20,7 +23,7 @@ export const MenuBar = (props: MenuBarPropsType) => {
           <span></span>
         </div>
       </MenuBarIcon>
-      {navIsOpen && <Navigation navIsOpen={navIsOpen} />}
+      {navIsOpen && <Navigation navIsOpen={setNav} />}
     </MenuBarStyled>
   );
 };
