@@ -34,9 +34,10 @@ export const Inspirations = () => {
 
       <InspirationCardsContainer>
         {inspirations &&
-          inspirations.map((inspiration: InspirationType) => {
+          inspirations.map((inspiration: InspirationType, index: number) => {
             return (
               <InspirationCard
+                key={`${inspiration} + ${index}`}
                 onClick={() => handleNavigate(inspiration)}
                 $bg={inspiration.backgroundColor}
                 $backImg={card1img}
