@@ -85,6 +85,11 @@ const SingleCardContentStyled = styled.div`
       line-height: 1.5;
     }
   }
+  @media (max-width: 500px) {
+    .content-info {
+      margin-top: 50px;
+    }
+  }
   @media (min-width: 375px) and (max-width: 768px) {
     padding-top: 350px;
   }

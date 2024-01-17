@@ -4,12 +4,19 @@ import { useLocation } from "react-router-dom";
 import { ToursPageSlider } from "./ToursPageSlider";
 import { ToursType } from "../../types/JsonTypes/ToursType";
 import { ToursPageContent } from "./ToursPageContent";
+import { useEffect } from "react";
+import { Logo } from "../header/Logo";
 
 export const ToursPage = () => {
   const location: { state: ToursType } = useLocation();
 
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <ToursPageStyled>
+      <Logo color="blue" />
       <ToursPageHeader
         name={location.state.name}
         img={location.state.img}
@@ -30,4 +37,9 @@ const ToursPageStyled = styled.div`
   display: flex;
   flex-direction: column;
   background-color: #fff;
+  .header__logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
 `;

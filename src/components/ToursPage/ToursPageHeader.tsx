@@ -63,6 +63,8 @@ const ToursPageHeaderStyled = styled.div`
     margin-bottom: 30px;
     font-weight: 900;
     font-size: 2.1rem;
+    width: 80%;
+    z-index: 1;
   }
 
   span {
