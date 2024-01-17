@@ -9,6 +9,7 @@ import { Logo } from "../header/Logo";
 import cardData from "../../inspirations.json";
 import tours from "../../inspirations-tours.json";
 import { ToursType } from "../../types/JsonTypes/ToursType";
+import { Button } from "../reusable/button";
 
 export const SingleCardPage = () => {
   const location = useLocation();
@@ -26,9 +27,14 @@ export const SingleCardPage = () => {
       <SingleCardImage src={imgUrlJPG} />
       <SingleCardHeader>
         <div className="singleCard-header-title">
-          <span onClick={() => navigate("/inspirations")}>
+          <Button
+            onClick={() => navigate("/inspirations")}
+            text="FIND INSPIRATION"
+            margins={false}
+          ></Button>
+          {/* <span onClick={() => navigate("/inspirations")}>
             FIND INSPIRATION
-          </span>
+          </span> */}
           <h2>{title}</h2>
         </div>
         <div className="singleCard-header-information">
@@ -93,21 +99,6 @@ const SingleCardHeader = styled.div`
   margin-top: 200px;
   .singleCard-header-title {
     width: 80%;
-    span {
-      display: block;
-      background-color: #e94f26;
-      width: 200px;
-      height: 20px;
-      border-radius: 20px;
-      text-align: center;
-      font-weight: 900;
-      font-size: 1rem;
-      cursor: pointer;
-      &:hover {
-        opacity: 0.8;
-      }
-    }
-
     h2 {
       font-family: "Prospectus L Black";
       margin-top: 30px;
@@ -164,11 +155,6 @@ const SingleCardHeader = styled.div`
     .singleCard-header-title {
       h2 {
         font-size: 5.5rem;
-      }
-      span {
-        width: 400px;
-        height: 55px;
-        font-size: 2.5rem;
       }
     }
     .singleCard-header-information {

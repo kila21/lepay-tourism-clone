@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { ChallangeImage } from "./ChallangeImage";
+import { Button } from "../reusable/button";
 
 export const Challange = () => {
   return (
@@ -13,7 +14,12 @@ export const Challange = () => {
             surprising challenges to help you discover the Pays des Lacs in a
             unique way.
           </p>
-          <button>PLAY AND EXPLORE.</button>
+          {/* <button>PLAY AND EXPLORE.</button> */}
+          <Button
+            text="Play and Explore"
+            onClick={() => {}}
+            margins={true}
+          ></Button>
         </div>
       </ChallangeContent>
     </ChallangeStyled>
@@ -41,19 +47,7 @@ const ChallangeContent = styled.div`
     color: white;
     display: flex;
     flex-direction: column;
-    button {
-      width: 170px;
-      height: 45px;
-      transform: translate(50%, 0);
-      margin-top: 25px;
-      border: none;
-      border-radius: 10px;
-      background-color: #e94f26;
-      color: #fff;
-      font-family: "FSP DEMO - Cervo Neue Neue", sans-serif;
-      cursor: pointer;
-      margin-bottom: 50px;
-    }
+
     h3 {
       margin: 20px 30px;
       font-size: 40px;

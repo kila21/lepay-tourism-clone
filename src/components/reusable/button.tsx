@@ -28,7 +28,8 @@ const ButtonStyled = styled.span<{ $margins: boolean }>`
     width: 30px;
     height: 30px;
     border-radius: 50%;
-    background-color: #e94f26;
+    /* background-color: #e94f26; */
+    margin-right: -20px;
     &::before {
       content: "";
       left: 0;

@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { Button } from "../reusable/button";
 
 export const ToursPageHeader = (props: {
   name: string;
@@ -31,7 +32,7 @@ export const ToursPageHeader = (props: {
           <h3>How to get there</h3>
           <h4>{props.routeName}</h4>
           <a target="blank" href={props.route}>
-            <span>route</span>
+            <Button text="route" onClick={() => {}} margins={false}></Button>
           </a>
         </div>
       </div>
@@ -110,22 +111,6 @@ const ToursPageHeaderStyled = styled.div`
         text-align: center;
         cursor: pointer;
         text-transform: uppercase;
-        span {
-          z-index: 1;
-          position: relative;
-          font-size: 1.3rem;
-          letter-spacing: 2px;
-        }
-        &::before {
-          content: "";
-          position: absolute;
-          background-color: #e94f26;
-          bottom: 0;
-          right: 0;
-          top: 0;
-          left: 0;
-          border-radius: 30px;
-        }
       }
     }
   }
@@ -150,12 +135,6 @@ const ToursPageHeaderStyled = styled.div`
         h4 {
           font-size: 1.5rem;
           line-height: 1.5;
-        }
-        a {
-          span {
-            font-size: 1rem;
-            width: 35%;
-          }
         }
       }
     }
