@@ -52,7 +52,7 @@ export const Card = (props: CardProps) => {
       translate = `translate3d(${translateX}, ${translateY}, 0) scale(0.8, 0.8)`;
     } else if (window.innerWidth > 768 && window.innerWidth <= 1440) {
       translateX = `calc(${-60}% + ${props.cardNum * 100}% - ${
-        window.scrollY * 1.7
+        window.scrollY * 2
       }px)`;
       translateY = `calc(${-20}% + ${props.cardNum * 90}% - ${
         window.scrollY * 0.6

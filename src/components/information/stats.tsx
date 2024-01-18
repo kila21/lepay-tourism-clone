@@ -54,12 +54,16 @@ const StatsStyled = styled.div`
     height: 700px;
   }
 
+  @media (min-width: 1024px) {
+    padding-bottom: 70px;
+  }
   @media (max-width: 1024px) {
     flex-direction: column;
   }
   @media (min-width: 1700px) {
     align-items: center;
     justify-content: center;
+
     div:nth-child(1) {
       transform: translate(0, -50%);
     }
